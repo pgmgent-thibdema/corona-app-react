@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 { 
+  padding: 2rem;
+}
+
+.stats {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  text-align: left;
+  width: 50vw;
+  border: 1px solid gray;
+  border-spacing: 0;
+}
+
+.row {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 0.5rem;
+}
+
+.row:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.name {
+  width: 80%;
+}
+
+.number {
+  width: 20%;
+}
